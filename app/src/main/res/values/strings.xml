@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+    <string name="login_now">Sign In</string>
+    <string name="create_account"><b><u><i>Create account</i></u></b></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="SignUpHeading"><b>Let\'s Get Started</b></string>
+    <string name="signUpSubheading">Sign up and we will continue</string>
+    <string name="username"><b>Username</b></string>
+    <string name="password"><b>Password</b></string>
+    <string name="email"><b>Email</b></string>
+    <string name="signIn"><b><u>Sign in</u></b></string>
+    <string name="login_subheading">Sign in and we will continue</string>
+    <string name="select"><b>Select</b></string>
+    <string name="hint_email">email.email@gmail.com</string>
+    <string name="hint_password">********</string>
+    <string name="shopping_list"><b>Shopping\nlist</b></string>
+    <string name="greetings">Greeting, create new list or catchup with your old ones</string>
+    <string name="default_list"><b>Default List</b></string>
+    <string name="products">%s Products</string>
+    <string name="create_new_list">Create new List</string>
+    <string name="check">click to add name</string>
+    <string name="signin"><b><u>Sign in</u></b></string>
+    <string name="logout">LogOut</string>
+    <string name="add_item">Add item</string>
+    <string name="quantity">Quantity</string>
+    <string name="prise">Prise</string>
+
+</resources>

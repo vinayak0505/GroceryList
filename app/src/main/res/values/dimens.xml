@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner">20dp</dimen>
+    <dimen name="editTextPaddingV">16dp</dimen>
+    <dimen name="editTextPaddingH">16dp</dimen>
+    <dimen name="main_activity_padding">20dp</dimen>
+</resources>

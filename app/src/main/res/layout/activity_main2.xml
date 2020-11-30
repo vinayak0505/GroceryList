@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity2">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/main_activity_padding"
+            android:text="@string/shopping_list"
+            android:textColor="@android:color/black"
+            android:textSize="32sp" />
+
+            <ImageView
+                android:id="@+id/main_menu"
+                android:paddingHorizontal="20dp"
+                android:src="@drawable/ic_baseline_menu_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/main_activity_padding"
+            android:text="@string/greetings" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:padding="@dimen/main_activity_padding">
+
+            <Button
+                android:id="@+id/list_create_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_login_style"
+                android:paddingVertical="@dimen/editTextPaddingV"
+                android:text="@string/create_new_list"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/list_edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible">
+
+                <EditText
+                    android:id="@+id/list_add_list"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:inputType="textPersonName"
+                    android:textSelectHandleRight="@drawable/ic_baseline_check_24" />
+
+                <ImageView
+                    android:id="@+id/list_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/check"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_baseline_check_24" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/list_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="@dimen/main_activity_padding"
+            android:paddingHorizontal="@dimen/main_activity_padding"
+            android:paddingBottom="@dimen/main_activity_padding" />
+
+    </LinearLayout>
+
+</layout>
